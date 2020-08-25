@@ -1,4 +1,5 @@
 Algoritmo alumnos
+//comienzo algortimo
 
 	Mostrar 'Bienvenido/a'
 	Mostrar '------------------'
@@ -27,7 +28,7 @@ Algoritmo alumnos
 		// se recorren los demas elementos buscan si hay alguno mayor que may1 o may2
 		Para i<-2 Hasta 10-1 Hacer
 			Si edades[i]>may1 Entonces // si hay un valor mayor que may1
-				may2<-may1 // como may1 era el más grande, pasa a estar en segundo lugar
+				may2<-may1 // como may1 era el mÃ¡s grande, pasa a estar en segundo lugar
 				may1<-edades[i] // y el nuevo dato toma el primer puesto (mayor de todos)
 			SiNo // si no era mas grande que may1, todavia puede ser mas grande que may2
 				Si edades[i]>may2 Entonces // si supera al segundo mayor que teniamos
@@ -37,5 +38,5 @@ Algoritmo alumnos
 		FinPara
 		
 		// se muestran los resultados
-		Escribir "El alumno de mayor edad es ', Nombres[i], ' y tiene ', may1, 'años'	
+		Escribir "El alumno de mayor edad es ', Nombres[i], ' y tiene ', may1, 'aÃ±os'	
 FinAlgoritmo
